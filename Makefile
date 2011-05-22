@@ -6,11 +6,11 @@ TEXFILE=mybook
 
 .phony: all
 
-all: cv.pdf
+all: $(TEXFILE).pdf
 
 
 
-cv.pdf: titleidx.sbx songs.sty
+$(TEXFILE).pdf: titleidx.sbx songs.sty
 	$(CTEX) $(TEXFILE).tex
 	rm -f $(TEXFILE).aux $(TEXFILE).log titleidx.sxd titleidx.sbx
 

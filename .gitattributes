@@ -1,0 +1,3 @@
+# treat pdf as binary files
+*.pdf -crlf -diff -merge
+*.tar.gz -crlf -diff -merge
