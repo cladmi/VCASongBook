@@ -21,7 +21,6 @@ titleidx.sxd: $(TEXFILE).tex
 	$(CTEX) $(TEXFILE).tex
 
 
-
 clean:
 	rm -f $(TEXFILE).aux $(TEXFILE).log titleidx.sxd titleidx.sbx
 	rm -f $(TEXFILE).pdf
